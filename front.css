@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.ad {
+    background-color: orange;
+    padding: 10px; 
+}
+
+.contact-info {
+    background-color: rgb(100, 100, 223);
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    padding-left: 30px;
+}
+
+.contact-info .icons {
+    padding-left: 500px;
+}
+.contact-info span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.contact-info span a:hover{
+    cursor: pointer;
+    color: red;
+}
+.icons a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.icons #fb:hover {
+    color: #1877f2; 
+}
+
+.icons #twit:hover {
+    color: #000; 
+}
+
+.icons #inst:hover {
+    color: #c32aa3;
+}
+    
+.icons #link:hover {
+    color: #0077b5;
+}
+
+.navbar {
+    background-color: rgb(100, 223, 151);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.logo i {
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+
+.logo h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.nav-links {
+    background-color: rgb(100, 223, 151);
+    padding-right: 175px;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white; 
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.nav-links button {
+    text-decoration: none;
+    background-color: #2bc4cf;
+    color: white; 
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.nav-links a:hover,
+.nav-links button:hover {
+    background-color: #ffffff;
+    color: red;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-links a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.nav-links li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu a {
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #333;
+
+}
+
+.enquiry-btn {
+    position: relative; 
+    cursor: pointer;
+    
+}
+
+.enquiry-form {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1000; 
+    width: 380px;
+    height: 380px;
+    color: #000;
+}
+
+.enquiry-form h3{
+    text-align: center;
+}
+
+.enquiry-btn:hover .enquiry-form {
+    display: block;
+}
+
+.enq {
+    background-color: #2bc4cf;
+    padding: 10px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    color: orange;
+}
+.enroll{
+    text-align: center;
+}
+
+.enroll button{
+    padding: 5px;
+    background-color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nav_cfor{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    border-radius: 5px;
+    padding: 20px; 
+    width: 1200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 130px;
+}
+
+.nav_cfor ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.nav_cfor li {
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.nav_cfor p{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.why_this{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    border-radius: 5px;
+    padding: 20px; 
+    width: 1200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 130px;
+}
+
+.why_this ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.why_this li {
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.why_this p{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.why_learn{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    border-radius: 5px;
+    padding: 20px; 
+    width: 1200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 270px;
+}
+
+.why_learn ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.why_learn li {
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.why_learn p{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.num {
+    position: relative;
+    width: 1125px;
+    height: 25px;
+    align-items: center;
+    background-color: orange;
+    margin-left: 100px;
+}
+.num p{
+    position: absolute;
+    top: 5%;
+    padding-left: 10px;
+}
+.num button{
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    background-color: orange;
+    border: none;
+}
+
+.list {
+    display: none;
+    width: 1125px;
+    max-height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.num:hover .list, .nut:hover + .list {
+    display: block;
+}
+
+.list ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.num button{
+    margin-left: 980px;
+}

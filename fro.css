@@ -1,0 +1,32 @@
+/* Hide the scrollable content initially */
+.scrollable {
+    display: none; /* Initially hidden */
+    width: 1100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border: 1px solid #ccc; /* Optional border for visibility */
+    padding: 10px; /* Optional padding */
+    overflow: auto; /* Enables scrolling */
+    position: absolute; /* Position absolutely relative to the parent */
+    top: 100%; /* Position below the button */
+    left: 0; /* Align with the left edge of the parent */
+    background-color: white; /* Background color for visibility */
+    z-index: 10; /* Ensure it appears above other content */
+}
+
+/* Ensure the .scrollable container is displayed when hovering over the button */
+.num {
+    position: relative; /* Ensure proper positioning for .scrollable */
+}
+
+#nut:hover + .scrollable {
+    display: block; /* Show the scrollable content when hovering over the button */
+}
+
+.scrollable ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.scrollable li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
